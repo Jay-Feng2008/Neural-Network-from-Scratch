@@ -4,6 +4,7 @@ A neural network built entirely with basic math functions in c++ that distinguis
 In normal circumstances, the step activation function choosed for a neural network is either sigmoid or tanh shown in the equations below  
          
 ![image](https://user-images.githubusercontent.com/101462429/164486917-0d8785a5-5a6e-4f6b-a846-ed40c1bfad71.png)         
+
         
 ![image](https://user-images.githubusercontent.com/101462429/164487397-27d4892c-b37b-4cb2-be77-4e9844d27dbe.png)      
           
@@ -34,3 +35,6 @@ BTW:
 Back to our topic:                       
 Consider our model, which is a singal-layer network with all neurons sharing the same activation function. We can simplify the equation into something like this:                     
 ![image](https://user-images.githubusercontent.com/101462429/164514530-1a181c12-f42b-445a-9513-c311985f1fad.png)                
+                     
+The configuration of the neurons is shown in the figure below                 
+<img width="475" alt="Screen Shot 2022-04-22 at 01 21 46" src="https://user-images.githubusercontent.com/101462429/164516159-c40fcca8-901a-476e-9322-e4d0bb98856e.png">                      
