@@ -14,7 +14,8 @@ In most networks, the function for updating the weight is shown below
             
 W':      New weight that has been updated.      
 W:       A Weight which connects two neurons that need to be update.           
-m, n:    Index values expressing the relative position of the input neuron.      
+m, n:    Index values expressing the relative position of the input neuron. 
+m',n':   Index values expressing the relative position of the output neruon.                 
 Eta:     Learning Rate.            
 Delta:   Loss       
 f(u):    The output of the input neuron as a function of "u".          
