@@ -25,3 +25,6 @@ Notice the function f also has index m and n. However in most modles the functio
                  
 The configuration of neurons is shown in the figure below                                  
 <img width="530" alt="Screen Shot 2022-04-22 at 00 29 16" src="https://user-images.githubusercontent.com/101462429/164507828-8eaf267f-63b0-49e3-88f5-8c1f7ed7a6a4.png">                  
+                                
+                                
+*The equation might seem scary to you, but it's just something derived from the gradient decent eqution (below). There are plenty of resources online so search it yourself.                     
