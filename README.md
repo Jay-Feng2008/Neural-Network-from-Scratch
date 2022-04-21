@@ -1,6 +1,8 @@
 # Neural-Network-from-Scratch
 A neural network built entirely with basic math functions in c++ that distinguish circles and rectangles    
 # Explanation     
+This neural network utilize the gradient descent algorithm                  
+                
 In normal circumstances, the step activation function choosed for a neural network is either sigmoid or tanh shown in the equations below  
          
 ![image](https://user-images.githubusercontent.com/101462429/164486917-0d8785a5-5a6e-4f6b-a846-ed40c1bfad71.png)         
