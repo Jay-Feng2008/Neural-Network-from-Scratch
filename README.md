@@ -13,7 +13,7 @@ In most networks, the function for updating the weight is shown below
 ![image](https://user-images.githubusercontent.com/101462429/164485414-74b39564-e841-4eb2-b845-17a688712405.png)             
             
 W':      New weight that has been updated.      
-W:       A Weight which connects two neurons that need to be update.
+W:       A Weight which connects two neurons that need to be update.           
 m, n:    Index values expressing the relative position of the input neuron.      
 Eta:     Learning Rate.            
 Delta:   Loss       
