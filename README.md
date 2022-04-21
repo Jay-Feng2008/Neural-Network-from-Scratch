@@ -10,14 +10,17 @@ In normal circumstances, the step activation function choosed for a neural netwo
 For each individual activation functon, there has to be a corresponding function for updating weights.
 In most networks, the function for updating the weight is shown below             
                        
-![image](https://user-images.githubusercontent.com/101462429/164499869-829f2a54-40a8-4a98-b4b7-eb418f9bddb3.png)                     
+![image](https://user-images.githubusercontent.com/101462429/164502837-1511b7db-8c13-4a6f-8e43-cdd5a3f443fc.png)                    
             
 W':      New weight that has been updated.      
 W:       A Weight which connects two neurons that need to be update.           
 m, n:    Index values expressing the relative position of the input neuron.      
 Eta:     Learning Rate.            
 Delta:   Loss       
-f(u):    The output of the input neuron as a function of "u".          
+f(e):    The output of the input neuron as a function of "u".          
 u:       The sum of the product of each weight and output of output neurons in the previous.          
 X:       The output of the output neuron which the weight in connecting.           
-Notice the function f also has index m and n. However in most modles the function for each neuron is the same. Therefore, the index of f does not matter much.
+Notice the function f also has index m and n. However in most modles the function for each neuron is the same. Therefore, the index of f does not matter too much.              
+                 
+The configuration of neurons is shown in the figure below                                  
+<img width="577" alt="Screen Shot 2022-04-22 at 00 01 18" src="https://user-images.githubusercontent.com/101462429/164502594-0f2695cd-a463-4cff-b57c-50b9f0ca4ff2.png">
