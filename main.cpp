@@ -1,4 +1,4 @@
-#include "stdc++.h"
+#include <iostream>
 #include "weight.cpp"
 using namespace std;
 
