@@ -38,3 +38,5 @@ Consider our model, which is a singal-layer network with all neurons sharing the
                      
 The configuration of the neurons is shown in the figure below                 
 <img width="475" alt="Screen Shot 2022-04-22 at 01 21 46" src="https://user-images.githubusercontent.com/101462429/164516159-c40fcca8-901a-476e-9322-e4d0bb98856e.png">                      
+                  
+Plugging in the sigmoid and tanh functions:              
