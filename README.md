@@ -19,4 +19,5 @@ Eta:     Learning Rate.
 Delta:   Loss       
 f(u):    The output of the input neuron as a function of "u".          
 u:       The sum of the product of each weight and output of output neurons in the previous.          
-X:       The output of the output neuron which the weight in connecting.              
+X:       The output of the output neuron which the weight in connecting.           
+Notice the function f also has index m and n. However in most modles the function for each neuron is the same. Therefore, the index of f does not matter much.
