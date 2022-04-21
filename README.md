@@ -23,4 +23,4 @@ X:       The output of the output neuron which the weight in connecting.
 Notice the function f also has index m and n. However in most modles the function for each neuron is the same. Therefore, the index of f does not matter too much.              
                  
 The configuration of neurons is shown in the figure below                                  
-<img width="557" alt="Screen Shot 2022-04-22 at 00 22 48" src="https://user-images.githubusercontent.com/101462429/164506590-81e3c8c1-fd34-4001-9775-554d0c1af53c.png">                      
+<img width="530" alt="Screen Shot 2022-04-22 at 00 29 16" src="https://user-images.githubusercontent.com/101462429/164507828-8eaf267f-63b0-49e3-88f5-8c1f7ed7a6a4.png">                  
