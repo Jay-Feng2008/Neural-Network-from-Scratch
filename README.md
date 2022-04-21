@@ -40,4 +40,5 @@ The configuration of the neurons is shown in the figure below
 <img width="475" alt="Screen Shot 2022-04-22 at 01 21 46" src="https://user-images.githubusercontent.com/101462429/164516159-c40fcca8-901a-476e-9322-e4d0bb98856e.png">                      
                   
 Plugging in the sigmoid and tanh functions:              
-![image](https://user-images.githubusercontent.com/101462429/164530041-0b700274-ddca-4041-b289-acf6d4b0d76d.png)                
+![image](https://user-images.githubusercontent.com/101462429/164530041-0b700274-ddca-4041-b289-acf6d4b0d76d.png)           
+![image](https://user-images.githubusercontent.com/101462429/164531202-7627c915-c780-46f5-954b-8b07b462d13a.png)          
