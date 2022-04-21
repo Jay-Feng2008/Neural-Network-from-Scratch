@@ -1,1 +1,1 @@
-double weight[100] = {};
+float weight[100] = {};
