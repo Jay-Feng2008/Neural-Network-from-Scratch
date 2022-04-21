@@ -1,3 +1,5 @@
 # Neural-Network-from-Scratch
 A neural network built entirely with basic math functions in c++ that distinguish circles and rectangles    
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a})
+# Explanation     
+In normal circumstances the step activation function choosed for a neural network is either sigmoid or tanh shown in the equation below     
+![ y=\frac{1}{1+e^{-x}}](https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{1}{1+e^{-x}})
