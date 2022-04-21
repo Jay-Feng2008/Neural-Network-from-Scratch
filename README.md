@@ -10,7 +10,7 @@ In normal circumstances, the step activation function choosed for a neural netwo
 For each individual activation functon, there has to be a corresponding function for updating weights.
 In most networks, the function for updating the weight is shown below             
                        
-![image](https://user-images.githubusercontent.com/101462429/164503255-5b4a57de-7afa-443c-b5c7-5c81afdc9417.png)                    
+![image](https://user-images.githubusercontent.com/101462429/164508633-e81ac128-f6c9-4c52-8b70-edbcdb7c36df.png)                    
             
 W':      New weight that has been updated.      
 W:       A Weight which connects two neurons that need to be update.           
