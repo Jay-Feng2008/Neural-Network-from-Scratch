@@ -3,9 +3,9 @@ A neural network built entirely with basic math functions in c++ that distinguis
 # Explanation     
 In normal circumstances, the step activation function choosed for a neural network is either sigmoid or tanh shown in the equations below  
          
-![\Large y=\frac{1}{1+e^{-x}}](https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{1}{1+e^{-x}})         
+![image](https://user-images.githubusercontent.com/101462429/164486917-0d8785a5-5a6e-4f6b-a846-ed40c1bfad71.png)         
         
-![\Large y=\frac{e^x-e^{-x}}{e^x+e^{-x}}](https://latex.codecogs.com/svg.latex?\Large&space;y=\frac{e^x-e^{-x}}{e^x+e^{-x}})      
+![image](https://user-images.githubusercontent.com/101462429/164487397-27d4892c-b37b-4cb2-be77-4e9844d27dbe.png)      
           
 For each individual activation functon, there has to be a corresponding function for updating weights.
 In most networks, the function for updating the weight is shown below             
