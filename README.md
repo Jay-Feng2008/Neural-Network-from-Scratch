@@ -33,3 +33,4 @@ BTW:
                                   
 Back to our topic:                       
 Consider our model, which is a singal-layer network with all neurons sharing the same activation function. We can simplify the equation into something like this:                     
+![image](https://user-images.githubusercontent.com/101462429/164514530-1a181c12-f42b-445a-9513-c311985f1fad.png)                
