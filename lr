@@ -1,4 +1,4 @@
 #!/bin/sh
-g++ -o main learningRate_calculate.cpp
+g++ -o main learning_rate.cpp
 ./main
 rm main
