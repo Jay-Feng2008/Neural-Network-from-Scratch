@@ -46,4 +46,7 @@ Plugging in the sigmoid and tanh functions:
 ![image](https://user-images.githubusercontent.com/101462429/164531202-7627c915-c780-46f5-954b-8b07b462d13a.png)          
                 
 # Running         
-For mac and linux users, first download the 
+For mac and linux users, first download the repository containing all codes. Then run the executable files in a terminal.              
+You might need to change the permissions first if the terminal returns "permission denied".            
+`sudo chmod 775 <filename>`           
+
