@@ -4,7 +4,7 @@
 
 float sum;
 float weight[100];
-float layer3;
+float layer;
 float lr;
 int data_pointer;
 float p_average[2] = {1000};
@@ -31,11 +31,11 @@ int main(){
                 sum += data_list[data_pointer+i]*weight[i];     // find the sum of all input-weight products
             }
 
-            layer3 = activation(sum);      //apply the activation function to the calculated sum
-            c_average += (data_lable[data_pointer/100]*2-1-layer3)*(data_lable[data_pointer/100]*2-1-layer3);
+            layer = activation(sum);      //apply the activation function to the calculated sum
+            c_average += (data_lable[data_pointer/100]*2-1-layer)*(data_lable[data_pointer/100]*2-1-layer);
 
             for (int j = 0;j < 100;j++){
-                weight[j] = weightFunc(weight[j],(float)(data_lable[data_pointer/100]*2-1)-layer3,data_list[data_pointer+j],lr); // updating the weights by gradient decent.
+                weight[j] = weightFunc(weight[j],(float)(data_lable[data_pointer/100]*2-1)-layer,data_list[data_pointer+j],lr); // updating the weights by gradient decent.
             }
         }
 
@@ -43,7 +43,7 @@ int main(){
         if(c_average < p_average[0]){p_average[0] = c_average; p_average[1] = lr;}  // find the smallest average loss among all iterations
 
     }
-    std::cout << "suggested learinf rate " << p_average[1] <<"\n";
+    std::cout << "suggested learning rate " << p_average[1] <<"\n";
 
     return 0;
 }
