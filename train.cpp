@@ -7,7 +7,7 @@
 float sum = 0;
 int t = 1;
 int wrongs;
-float layer3;
+float layer;
 float lr = 0.08; // learning rate.
 int data_pointer;
 
@@ -23,7 +23,6 @@ float weightFunc_tanh(float weight, float delta, float input){
 
 
 int main(){
-    srand(time(NULL));
     std::ofstream myfile;
     for(int t = 1; t <= 200000; t++){
         data_pointer = (t%data_size)*100;   // set the data_pointer to a spcific group of data
@@ -32,10 +31,10 @@ int main(){
             sum += data_list[data_pointer+i]*weight[i];     // find the sum of all input-weight products
         }
 
-        layer3 = tanh(sum);      //apply the activation function to the calculated sum
+        layer = tanh(sum);      //apply the activation function to the calculated sum
 
         for (int j = 0;j < 100;j++){
-            weight[j] = weightFunc_tanh(weight[j],(float)(data_lable[data_pointer/100]*2-1)-layer3,data_list[data_pointer+j]); // updating the weights by gradient decent.
+            weight[j] = weightFunc_tanh(weight[j],(float)(data_lable[data_pointer/100]*2-1)-layer,data_list[data_pointer+j]); // updating the weights by gradient decent.
         }
     }
 
