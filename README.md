@@ -44,3 +44,6 @@ The configuration of the neurons is shown in the figure below
 Plugging in the sigmoid and tanh functions:              
 ![image](https://user-images.githubusercontent.com/101462429/164530041-0b700274-ddca-4041-b289-acf6d4b0d76d.png)           
 ![image](https://user-images.githubusercontent.com/101462429/164531202-7627c915-c780-46f5-954b-8b07b462d13a.png)          
+                
+# Running         
+For mac and linux users, first download the 
