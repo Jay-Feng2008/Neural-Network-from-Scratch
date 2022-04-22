@@ -61,7 +61,7 @@ For windows user, compile train.cpp and run it.
 The program will take 3 to 4 seconds.           
                  
 To change the parameters of the training, open train.cpp and tweak some values in the activation function or learning rate.                          
-<img width="698" alt="Screen Shot 2022-04-22 at 10 30 04" src="https://user-images.githubusercontent.com/101462429/164584611-53d3e28c-3b8a-4d4a-8de1-97de44594b9a.png">              
+<img width="675" alt="Screen Shot 2022-04-22 at 16 16 43" src="https://user-images.githubusercontent.com/101462429/164648121-376eb7d8-1832-4b21-9c02-807c590244b1.png">              
                 
 After changing the activation function or training data, you might need a new learning rate.            
 To find an appropriate learning rate, copy the activation function to learning_rate.cpp and run the executable file named "lr"            
