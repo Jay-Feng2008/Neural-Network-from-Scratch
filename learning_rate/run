@@ -1,4 +1,0 @@
-#!/bin/sh
-g++ -o main learningRate_calculate.cpp
-./main
-rm main
