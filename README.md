@@ -68,4 +68,4 @@ To find an appropriate learning rate, copy the activation function to learning_r
 <img width="692" alt="Screen Shot 2022-04-22 at 16 00 03" src="https://user-images.githubusercontent.com/101462429/164644631-2e479e84-5123-413d-be7c-c41339c6bc65.png">            
               
 To swich between sigmoid and tanh activation or any activation functions you designed, change the function in line 35 and 38 of train.cpp          
-
+<img width="949" alt="Screen Shot 2022-04-22 at 16 13 19" src="https://user-images.githubusercontent.com/101462429/164647045-477a2396-5026-4d67-9f5c-d3e2683b498b.png">              
