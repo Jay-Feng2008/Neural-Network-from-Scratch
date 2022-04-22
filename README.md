@@ -53,3 +53,5 @@ You might need to change the permissions first if the terminal returns "permissi
 For windows users, you have to manually compile and run the c++ codes.              
               
 More information will be show in the next section.              
+                   
+# More Information       
