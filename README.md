@@ -49,4 +49,7 @@ Plugging in the sigmoid and tanh functions:
 For mac and linux users, first download the repository containing all codes. Then run the executable files in a terminal.              
 You might need to change the permissions first if the terminal returns "permission denied".            
 `sudo chmod 775 <filename>`           
-
+                  
+For windows users, you have to manually compile and run the c++ codes.              
+              
+More information will be show in the next section.              
