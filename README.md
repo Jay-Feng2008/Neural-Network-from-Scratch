@@ -85,3 +85,5 @@ Assuming this a an array of data fed in to the network:
 `                        0,0,0,0,0,0,0,0,0,0,  `        
 `                        0,0,0,0,0,0,0,0,0,0,};`              
                       
+Then the output shall be something like this:      
+`retangle3.51869`       
