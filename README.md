@@ -45,7 +45,11 @@ Plugging in the sigmoid and tanh functions:
 ![image](https://user-images.githubusercontent.com/101462429/164530041-0b700274-ddca-4041-b289-acf6d4b0d76d.png)           
 ![image](https://user-images.githubusercontent.com/101462429/164531202-7627c915-c780-46f5-954b-8b07b462d13a.png)          
                 
-# Running         
+# Execution         
+1. Run "train". This will give accurate weight for the connections.       
+2. Open "main.cpp" and edit "data_array". This is the input of your network. There are plenty of choice in "train_data.cpp". You coubld copy a set of data and paste it at the "data_array" section in "main.cpp".       
+3. Run "run" and see the output.      
+           
 For mac and linux users, first download the repository containing all codes. Then run the executable files in a terminal.              
 You might need to change the permissions first if the terminal returns "permission denied".            
 `sudo chmod 775 <filename>`           
