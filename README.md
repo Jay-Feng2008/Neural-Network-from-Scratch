@@ -54,4 +54,10 @@ For windows users, you have to manually compile and run the c++ codes.
               
 More information will be show in the next section.              
                    
-# More Information       
+# More Information      
+To train the network, run the executable file named "train".                    
+For windows user, compile train.cpp and run it.         
+`./train`                 
+The program will take 3 to 4 seconds.           
+                 
+                 
