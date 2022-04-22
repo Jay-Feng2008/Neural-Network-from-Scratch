@@ -73,15 +73,15 @@ To swich between sigmoid and tanh activation or any activation functions you des
 To test the network, open main.cpp first. You can see a array named "data_array". Copy a set of data from train_data.cpp. If the network is trained properly, then it should be able to distinguish a circles(ellipses) and rectangles.          
 For example:    
 Assuming this a an array of data fed in to the network:        
-`float data_array[100]=
-                   {    0,0,0,0,0,0,0,0,0,0,      
-                        0,0,0,0,0,0,0,0,0,0,          
-                        0,0,0,0,0,0,0,0,0,0,           
-                        0,0,0,1,1,1,0,0,0,0,             
-                        0,0,0,1,1,1,0,0,0,0,           
-                        0,0,0,1,1,1,0,0,0,0,         
-                        0,0,0,0,0,0,0,0,0,0,           
-                        0,0,0,0,0,0,0,0,0,0,         
-                        0,0,0,0,0,0,0,0,0,0,          
-                        0,0,0,0,0,0,0,0,0,0,};`              
+`float data_array[100]=`
+`                   {    0,0,0,0,0,0,0,0,0,0,  `    
+`                        0,0,0,0,0,0,0,0,0,0,  `        
+`                        0,0,0,0,0,0,0,0,0,0,  `         
+`                        0,0,0,1,1,1,0,0,0,0,  `           
+`                        0,0,0,1,1,1,0,0,0,0,  `        
+`                        0,0,0,1,1,1,0,0,0,0,  `       
+`                        0,0,0,0,0,0,0,0,0,0,  `         
+`                        0,0,0,0,0,0,0,0,0,0,  `       
+`                        0,0,0,0,0,0,0,0,0,0,  `        
+`                        0,0,0,0,0,0,0,0,0,0,};`              
                       
