@@ -1,4 +1,4 @@
 #!/bin/sh
 g++ train.cpp -o training
 ./training
-#rm training
+rm training
